@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MBTI 互動測驗</title>
+ <link rel="stylesheet" href="./css/mbti.css">
+</head>
+<body>
+  <div id="quiz-container">
+    <div class="question" id="question"></div>
+    <div class="options" id="options"></div>
+    <button id="nextButton" style="display:none;">下一個情境</button>
+    <button id="completeButton" style="display:none;">完成測驗</button>
+  </div>
+<div class="main">
+<!-- 用來顯示 MBTI 類型結果、甜點名稱、能力值、好友的區域 -->
+<div id="resultArea">
+    <!-- 這個區域將用 JavaScript 更新內容 -->
+  </div>
+
+ <!-- 新增雷達圖的容器 -->
+ <div id="radarChartContainer">
+    <canvas id="radarChart"></canvas>
+  </div>
+</div>
+  
+ <!-- 引入 Chart.js -->
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./src/js/mbti.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
